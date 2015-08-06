@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D9C6AFD1B73B1060044E83B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9C6AFC1B73B1060044E83B /* Main.storyboard */; };
 		9CCA78ED1B739A60002ACBF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA78EC1B739A60002ACBF1 /* main.m */; };
 		9CCA78F01B739A60002ACBF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA78EF1B739A60002ACBF1 /* AppDelegate.m */; };
 		9CCA78F31B739A60002ACBF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA78F21B739A60002ACBF1 /* ViewController.m */; };
-		9CCA78F61B739A60002ACBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA78F41B739A60002ACBF1 /* Main.storyboard */; };
 		9CCA78F81B739A60002ACBF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA78F71B739A60002ACBF1 /* Images.xcassets */; };
 		9CCA78FB1B739A60002ACBF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA78F91B739A60002ACBF1 /* LaunchScreen.xib */; };
 		9CCA79071B739A60002ACBF1 /* BatailleNavaleOBJCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA79061B739A60002ACBF1 /* BatailleNavaleOBJCTests.m */; };
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D9C6AFC1B73B1060044E83B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9CCA78E71B739A60002ACBF1 /* BatailleNavaleOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatailleNavaleOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCA78EB1B739A60002ACBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CCA78EC1B739A60002ACBF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		9CCA78EF1B739A60002ACBF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9CCA78F11B739A60002ACBF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9CCA78F21B739A60002ACBF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9CCA78F51B739A60002ACBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CCA78F71B739A60002ACBF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9CCA78FA1B739A60002ACBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9CCA79001B739A60002ACBF1 /* BatailleNavaleOBJCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatailleNavaleOBJCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,8 +85,8 @@
 				9CCA78EF1B739A60002ACBF1 /* AppDelegate.m */,
 				9CCA78F11B739A60002ACBF1 /* ViewController.h */,
 				9CCA78F21B739A60002ACBF1 /* ViewController.m */,
-				9CCA78F41B739A60002ACBF1 /* Main.storyboard */,
 				9CCA78F71B739A60002ACBF1 /* Images.xcassets */,
+				3D9C6AFC1B73B1060044E83B /* Main.storyboard */,
 				9CCA78F91B739A60002ACBF1 /* LaunchScreen.xib */,
 				9CCA78EA1B739A60002ACBF1 /* Supporting Files */,
 			);
@@ -199,7 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CCA78F61B739A60002ACBF1 /* Main.storyboard in Resources */,
+				3D9C6AFD1B73B1060044E83B /* Main.storyboard in Resources */,
 				9CCA78FB1B739A60002ACBF1 /* LaunchScreen.xib in Resources */,
 				9CCA78F81B739A60002ACBF1 /* Images.xcassets in Resources */,
 			);
@@ -244,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9CCA78F41B739A60002ACBF1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CCA78F51B739A60002ACBF1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9CCA78F91B739A60002ACBF1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -418,6 +410,7 @@
 				9CCA790C1B739A60002ACBF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CCA790D1B739A60002ACBF1 /* Build configuration list for PBXNativeTarget "BatailleNavaleOBJCTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +419,7 @@
 				9CCA790F1B739A60002ACBF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
